@@ -1,0 +1,111 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarTextStyle":"white"
+			}
+		},
+		{
+			"path": "pages/index/details",
+			"style": {
+				"navigationBarTitleText": "详情",
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent",
+						"buttons": [{
+							"type": "share"
+						}]
+					}
+				},
+				"h5": {
+					"titleNView": {
+						"type": "transparent",
+						"buttons": []
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/recommend/recommend",
+			"style": {
+				"navigationBarTitleText": "推荐",
+				"navigationBarTextStyle":"white"
+			}
+		},
+		{
+			"path": "pages/myinfo/myinfo",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarTextStyle":"white"
+			}
+		},
+		{
+			"path": "pages/shilu-login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationBarTextStyle":"white"
+			}
+		},
+		{
+			"path": "pages/shilu-login/reg",
+			"style": {
+				"navigationBarTitleText": "注册",
+				"navigationBarTextStyle":"white"
+			}
+		},
+		{
+			"path": "pages/shilu-login/forget",
+			"style": {
+				"navigationBarTitleText": "忘记密码",
+				"navigationBarTextStyle":"white"
+			}
+		},
+		{
+			"path": "pages/shilu-login/blog",
+			"style": {
+				"navigationBarTitleText": "blog",
+				"navigationBarTextStyle":"white"
+			}
+		},
+		{
+			"path":"pages/recommend/my",
+			"style":{
+				"navigationBarTitleText":"我的评论",
+				"navigationBarTextStyle":"white"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#FF69B4",
+		"backgroundColor": "#F8F8F8"
+	},
+	
+	"tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+		{
+        "pagePath": "pages/index/index",
+        "iconPath": "static/bo1.png",
+        "selectedIconPath": "static/bo2-2.png",
+        "text": "主页"
+		}, {
+        "pagePath": "pages/recommend/recommend",
+        "iconPath": "static/m1.png",
+        "selectedIconPath": "static/m1_act2.png",
+        "text": "推荐"
+		},{
+		"pagePath": "pages/myinfo/myinfo",
+		"iconPath": "static/m2.png",
+		"selectedIconPath": "static/m2_act2.png",
+		"text": "我的"
+		}
+	]
+}
+}

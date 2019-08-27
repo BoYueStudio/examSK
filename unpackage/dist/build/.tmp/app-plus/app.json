@@ -1,0 +1,58 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/details",
+    "pages/recommend/recommend",
+    "pages/myinfo/myinfo",
+    "pages/shilu-login/login",
+    "pages/shilu-login/reg",
+    "pages/shilu-login/forget",
+    "pages/shilu-login/blog",
+    "pages/recommend/my"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#FF69B4",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/bo1.png",
+        "selectedIconPath": "static/bo2-2.png",
+        "text": "主页"
+      },
+      {
+        "pagePath": "pages/recommend/recommend",
+        "iconPath": "static/m1.png",
+        "selectedIconPath": "static/m1_act2.png",
+        "text": "推荐"
+      },
+      {
+        "pagePath": "pages/myinfo/myinfo",
+        "iconPath": "static/m2.png",
+        "selectedIconPath": "static/m2_act2.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "examSK",
+  "compilerVersion": "1.9.9",
+  "usingComponents": {
+    "sunui-upbasic": "/components/sunui-upimg/sunui-upimg-basic",
+    "sunui-upoos": "/components/sunui-upimg/sunui-upimg-alioos",
+    "sunui-upqiniu": "/components/sunui-upimg/sunui-upimg-qiniu",
+    "sunui-upcos": "/components/sunui-upimg/sunui-upimg-tencent"
+  }
+}
